@@ -26,10 +26,12 @@
 
 
 ## **Getting Started**
-Prerequisites
-Xcode (with SwiftUI support)
-iOS Simulator or a physical iOS device
 
+### **Prerequisites**
+- Xcode (with SwiftUI support)
+- iOS Simulator or a physical iOS device
+
+<br>
 
 ### **Installation**
 - Clone or download the project.
