@@ -8,8 +8,8 @@
 
 ## **Features**
 - <kbd style="background-color: #f0f0f0">Horizontal Carousel:</kbd> Presents location cards in a horizontal scrolling carousel for an interactive browsing experience.
-- <kbd style="background-color: #f0f0f0">Parallax Effect:</kbd> Implements a parallax effect on card movement, adding depth and visual interest.
 - <kbd style="background-color: #f0f0f0">Interactive Scroll Transition (iOS 17):</kbd> Utilizes .scrollTransition with interactive behavior and horizontal axis to apply a dynamic scaling effect on the cards during scrolling.
+- <kbd style="background-color: #f0f0f0">Parallax Effect:</kbd> Implements a parallax effect on card movement, adding depth and visual interest.
 - <kbd style="background-color: #f0f0f0">Search Bar Integration:</kbd> Includes a search bar with a magnifying glass and filter icons for potential search functionality.
 - <kbd style="background-color: #f0f0f0">Airbnb-themed UI:</kbd> Adopts an Airbnb-inspired user interface with a bold red color scheme for a visually appealing design.
 
