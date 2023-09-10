@@ -16,10 +16,8 @@
 <br>
 
 ### **Videos and Demos**
+https://github.com/ZelynaFarrell/ParallaxCarousel/assets/117409535/e1112a7a-3b5c-437d-bc7f-1cc2a68bd829
 
-| Parallax Carousel | 
-|:---------------:|
-|<img width="400" src="">|
 
 
 <br>
