@@ -42,18 +42,18 @@ struct ContentView: View {
                     
                     ScrollView(.horizontal) {
                         HStack(spacing: 5) {
-                            ForEach(locationCards) { card in
+                            ForEach(locations) { location in
                                 GeometryReader { proxy in
                                     let cardSize = proxy.size
                                     
                                     let minX = min((proxy.frame(in: .scrollView).minX - 30) * 1.4, size.width * 1.4)
                                     
-                                    Image(card.image)
+                                    Image(location.image)
                                         .resizable()
                                         .aspectRatio(contentMode: .fill)
                                         .offset(x: -minX)
                                         .frame(width: cardSize.width, height: cardSize.height)
-                                        .overlay(OverlayView(card))
+                                        .overlay(LocationOverlay(location))
                                         .clipShape(.rect(cornerRadius: 15))
                                         .shadow(color: .black.opacity(0.25), radius: 8, x: 5, y: 10)
                                 }
@@ -81,18 +81,18 @@ struct ContentView: View {
     }
     
     @ViewBuilder
-    func OverlayView(_ card: LocationCard) -> some View {
+    func LocationOverlay(_ location: Location) -> some View {
         ZStack(alignment: .bottomLeading) {
             LinearGradient(colors: [.clear, .clear, .clear, .clear, .clear, .black.opacity(0.1), .black.opacity(0.5), .black
             ], startPoint: .top, endPoint: .bottom)
             
             VStack(alignment: .leading, spacing: 4) {
-                Text(card.title)
+                Text(location.city)
                     .font(.title2)
                     .fontWeight(.black)
                     .foregroundStyle(.white)
                 
-                Text(card.subtitle)
+                Text(location.country)
                     .font(.callout)
                     .foregroundStyle(.white.opacity(0.8))
             }
