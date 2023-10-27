@@ -1,4 +1,4 @@
-# <p align="center"><b>Parallax Carousel Horizontal Image Scroll</b></p>
+# <p align="center"><b>Parallax Carousel Horizontal Image </b></p>
 
 
 #### <p align="center">This SwiftUI mini-project showcases a parallax carousel with horizontal scrolling functionality. It's designed to provide an interactive and visually appealing way to display images.
